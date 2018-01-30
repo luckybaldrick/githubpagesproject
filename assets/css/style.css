@@ -1,0 +1,43 @@
+body {
+    background-color: grey;
+}
+
+header{
+height: 30px;
+width: 200px;
+background-color: teal;
+padding: 2px;
+font-size: 26px;
+border: 2px
+}
+#about-me {
+    float: left;
+    width: 40%;
+    padding: 2px;
+    background-color: beige;
+    margin-top: 10px;
+    border: 10px: black;
+    position: absolute;
+    left: 20px;
+}
+
+h1 {
+    font-size: 26px;
+    color: teal;
+}
+
+#placeholder {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+#links {
+    float: right;
+}
+.link {
+    border-style: ;
+    padding: 5px;
+    border-width: 1px;
+}
