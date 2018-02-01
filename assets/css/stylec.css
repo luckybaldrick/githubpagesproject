@@ -1,0 +1,31 @@
+header {
+    height: 50px;
+    width: 250px;
+    background-color: #4aaaa5;
+    padding: 20px;
+    font-size: 32px;
+    border: 2px;
+    border-color: #cccccc;
+    position: relative;
+    top: 0px;
+    left: 45px;
+    z-index: 3;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #ffffff;
+}
+
+#links {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: #ffffff;
+    height: 50px;
+    padding: 20px;
+    text-align: right;
+    margin-top: 8px;
+    border-bottom: solid;
+    border-color: #dddddd;
+}
