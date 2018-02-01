@@ -13,6 +13,7 @@ header {
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     text-align: center;
     color: #ffffff;
+    margin-left: 55px;
 }
 
 #links {
@@ -31,7 +32,7 @@ header {
 }
 
 .link {
-    border-style: ;
+    border-style: bold;
     padding: 10px;
     border-width: 1px;
     font-size: 25px;
@@ -42,12 +43,13 @@ h1 {
     font-size: 26px;
     color: teal;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
+    margin-left: 20px;
 }
 
 #portfolio {
 
-    width: 50%;
-    padding: 2px;
+    width: 670px;
+    padding: 20px;
     background-color: #ffffff;
     margin-top: 10px;
     border-style: solid;
@@ -64,8 +66,8 @@ h1 {
     left: 0
 }
 .portfolio-pics {
-    width: 200px;
-    height: 200px;
+    width: 270px;
+    height: 150px;
     padding: 20px;
 }
 
@@ -76,15 +78,14 @@ footer {
     width: 100%;
     padding: 10px;
     background-color: #666666;
-    z-index: 2;
+    z-index: 5;
 }
 
 #portfolio, #connect {
-    display: inline-block;
     position: relative;
     margin: 10px;
     float: left;
-    left: 30px;
+    left: 90px;
     top: 50px;
 }
 #connect {
@@ -111,4 +112,16 @@ h2 {
     font-size: 26px;
     color: teal;
     font-family: 'Georgia', Times, Times New Roman, serif;
+}
+.social1, .social2, .social3 {
+    padding: 10px;
+}
+.social1:visited, .social2:visited, .social3:visited {
+    color: black;
+}
+.link:link {
+    color: grey;
+}
+.link:visited {
+    color: grey;
 }
